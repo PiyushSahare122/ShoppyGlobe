@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware configuration
 app.use(
   cors({
-    origin: "https://shoppy-globe-ashen.vercel.app/", // Specify the allowed origin for CORS
+    origin: "https://shoppy-globe-ashen.vercel.app", // Specify the allowed origin for CORS
     methods: ["GET", "POST", "DELETE", "PUT"], // Allow these HTTP methods
     allowedHeaders: [
       "Content-Type", 
