@@ -9,7 +9,8 @@ import shopOrderRouter from "./routes/order-routes.js";
 
 // Connect to MongoDB using Mongoose
 mongoose
-  .connect("mongodb+srv://piyushsahare122:OgRNYX5bbdqZc0g0@cluster0.bqdtn.mongodb.net/") // Connection string 
+  .connect("mongodb+srv://piyushsahare122:OgRNYX5bbdqZc0g0@cluster0.bqdtn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+") // Connection string 
   .then(() => console.log("MongoDB connected")) 
   .catch((error) => console.log(error)); 
 
