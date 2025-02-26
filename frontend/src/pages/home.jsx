@@ -36,9 +36,9 @@ function ShoppingHome() {
 
   // Categories with images for display in the category slider
   const categoriesWithImages = [
-    { id: "men", label: "Men", image: "/src/assets/men.jpeg" },
-    { id: "women", label: "Women", image: "/src/assets/woman.jpeg" },
-    { id: "kids", label: "Kids", image: "/src/assets/kids.jpeg" }
+    { id: "men", label: "Men", image: "../assets/men.jpeg" },
+    { id: "women", label: "Women", image: "../assets/woman.jpeg" },
+    { id: "kids", label: "Kids", image: "../assets/kids.jpeg" }
   ];
 
   // Navigate to the listing page with the selected category
