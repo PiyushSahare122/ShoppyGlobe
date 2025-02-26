@@ -12,6 +12,10 @@ import bannerOne from "../assets/banner-1.jpg";
 import bannerTwo from "../assets/banner-2.jpg";
 import bannerThree from "../assets/banner-3.jpg";
 import bannerFour from "../assets/banner-4.jpg";
+import men from "../assets/men.jpeg";
+import woman from "../assets/woman.jpeg";
+import kids from "../assets/kids.jpeg";
+
 // Categories with icons for display
 const categoriesWithIcon = [
   { id: "men", label: "Men", icon: ShirtIcon },
@@ -36,9 +40,9 @@ function ShoppingHome() {
 
   // Categories with images for display in the category slider
   const categoriesWithImages = [
-    { id: "men", label: "Men", image: "../assets/men.jpeg" },
-    { id: "women", label: "Women", image: "../assets/woman.jpeg" },
-    { id: "kids", label: "Kids", image: "../assets/kids.jpeg" }
+    { id: "men", label: "Men", image: men },
+    { id: "women", label: "Women", image: woman },
+    { id: "kids", label: "Kids", image: kids }
   ];
 
   // Navigate to the listing page with the selected category
