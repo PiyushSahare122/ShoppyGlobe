@@ -22,7 +22,7 @@ const _dirname = path.resolve();
 // Middleware configuration
 app.use(
   cors({
-    origin: "http://localhost:5173", // Specify the allowed origin for CORS
+    origin: "https://shoppyglobe-m3yk.onrender.com", // Specify the allowed origin for CORS
     methods: ["GET", "POST", "DELETE", "PUT"], // Allow these HTTP methods
     allowedHeaders: [
       "Content-Type", 

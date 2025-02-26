@@ -13,7 +13,7 @@ export const registerUser = createAsyncThunk(
   "/auth/register",
   async (formData) => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/register", 
+      "https://shoppyglobe-m3yk.onrender.com/api/auth/register", 
       formData,
       {
         withCredentials: true, 
@@ -28,7 +28,7 @@ export const loginUser = createAsyncThunk(
   "/auth/login",
   async (formData) => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/login", 
+      "https://shoppyglobe-m3yk.onrender.com/api/auth/login", 
       formData,
       {
         withCredentials: true,
@@ -43,7 +43,7 @@ export const logoutUser = createAsyncThunk(
   "/auth/logout",
   async () => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/logout", 
+      "https://shoppyglobe-m3yk.onrender.com/api/auth/logout", 
       {},
       {
         withCredentials: true,
@@ -58,7 +58,7 @@ export const checkAuth = createAsyncThunk(
   "/auth/checkauth",
   async () => {
     const response = await axios.get(
-      "http://localhost:5000/api/auth/check-auth", 
+      "https://shoppyglobe-m3yk.onrender.com/api/auth/check-auth", 
       {
         withCredentials: true,
         headers: {
